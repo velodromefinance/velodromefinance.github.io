@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap');
+body {
+	background-color: #ffffff!important;
+    color: #080808a3!important;
+    font-family: 'Albert Sans', sans-serif!important;
+}
+.icenter {
+	text-align: center;
+}
+.icenter img {
+	max-width: 100%;
+	padding: 25px 0;
+}
+.hh11 {
+	text-align: center;
+	padding-bottom: 13px;
+}
+span {
+	color: #0d6efd!important;
+}
+.padse h2 {
+	padding-top: 15px;
+}
+.centrr {
+	display: flex;
+	justify-content: center;
+}
+header h2 {
+    color: #000000;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+	background-color: #18181800!important;
+	color: #5da1e7!important;
+}
+.nav-link {
+	color: #000000!important;
+}
+.container {
+	max-width: 999px!important;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #000;
+	color:#fff;
+}
+
+h1{
+	font-size: 45px;
+	margin:10px 0px;
+}
+
+h2{
+	font-size: 40px;
+	margin:10px 0px;
+}
+p{
+	padding: 10px 0px;
+}
+
+ol {
+    list-style: inside;
+}
+
+
+img{
+	width: 100%;
+}
+.container{
+	width: 1280px;
+	position: relative;
+	margin:auto;
+}
+
+.header-desk-block{
+ 		display: none;
+}
+
+@media screen and (max-width: 600px) {
+ 	.header-mob{
+ 		display: none;
+ 	}
+ 	.footer-mob{
+ 		display: none;
+ 	}
+ 	.container{
+ 		width: 95%;
+ 		margin:0 auto;
+ 	}
+ 	.header-desk-block{
+ 		display: block;
+ 	}
+}
